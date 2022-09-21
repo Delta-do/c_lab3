@@ -1,6 +1,6 @@
 ﻿  Source.c
-C:\Users\TEMP\source\repos\c_lab3\c_lab3\Source.c(16,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\TEMP\source\repos\c_lab3\c_lab3\Source.c(26,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\TEMP\source\repos\c_lab3\c_lab3\Source.c(28,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\TEMP\source\repos\c_lab3\c_lab3\Source.c(30,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  c_lab3.vcxproj -> C:\Users\TEMP\source\repos\c_lab3\x64\Debug\c_lab3.exe
+C:\Users\Maria\source\repos\c_lab3\c_lab3\Source.c(16,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Maria\source\repos\c_lab3\c_lab3\Source.c(26,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Maria\source\repos\c_lab3\c_lab3\Source.c(28,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Maria\source\repos\c_lab3\c_lab3\Source.c(30,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  c_lab3.vcxproj -> C:\Users\Maria\source\repos\c_lab3\x64\Debug\c_lab3.exe

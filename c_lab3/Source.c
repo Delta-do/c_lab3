@@ -44,6 +44,14 @@ void t3()
 	printf("| %11.1f | %11.1f | %11.1f |\n", a * b, a + b, a - b);
 }
 
+void th()
+{
+	int s = 0;
+	puts("Введите время в секундах");
+	scanf_s("%d", &s);
+	printf("%d часов %d минут", s / 3600, (s - s / 3600 * 3600) / 60);
+}
+
 void main()
 {
 	setlocale(LC_ALL, "RUS");
@@ -55,5 +63,8 @@ void main()
 	//t2();
 
 	//3 задание 
-	t3();
+	//t3();
+
+	//taskhome
+	th();
 }
