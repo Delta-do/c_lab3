@@ -4,6 +4,7 @@
 #define D 2.54
 #define I 2.32166
 #define S 2.7076
+#define G 6.672e-11
 
 void t1()
 {
@@ -44,12 +45,20 @@ void t3()
 	printf("| %11.1f | %11.1f | %11.1f |\n", a * b, a + b, a - b);
 }
 
-void th()
+void th8()
 {
 	int s = 0;
 	puts("Введите время в секундах");
 	scanf_s("%d", &s);
 	printf("%d часов %d минут", s / 3600, (s - s / 3600 * 3600) / 60);
+}
+
+void th11()
+{
+	float m1 = 0, m2 = 0, r = 0;
+	puts("Введите массы двух тел и расстояние между ними");
+	scanf_s("%f\n%f\n%f", &m1, &m2, &r);
+	printf("Сила притяжения %e Н", G * m1 * m2 / (r * r));
 }
 
 void main()
@@ -66,5 +75,7 @@ void main()
 	//t3();
 
 	//taskhome
-	th();
+	//th8();
+
+	th11();
 }
